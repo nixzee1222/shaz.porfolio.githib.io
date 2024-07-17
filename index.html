@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-SHAZ</title>
+    <link rel="stylesheet" href="css/shaz.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/e3fa315258.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/shaz.js"></script>
+  </head>
+  <body class="">
+    <!-- NAVBAR -->
+    <nav class="fixed-top" id="topNav">
+      <div class="topnav" id="myTopnav">
+        <a href="#" class="logo masked-text" data-text="SHAZ"
+          ><h3 style="font-weight: bolder">SHAZ</h3></a
+        >
+        <div class="nav-links">
+          <a href="#home" onclick="smoothScroll('about')">HOME</a>
+          <a href="#about" onclick="smoothScroll('about')">ABOUT</a>
+          <a href="#skills" onclick="smoothScroll('skills')">SKILLS</a>
+          <a href="#projects" onclick="smoothScroll('projects')">PROJECTS</a>
+          <a href="#contact" onclick="smoothScroll('contact')">CONTACT</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home">
+      <div class="container-fluid home">
+        <div class="hero-image"></div>
+      </div>
+      <div class="hero-text" id="animated-heading">
+        <div class="heading" style="text-align: left" id="heading">
+          <h5>WE DESIGN, DEVELOP & BUILD BRANDS</h5>
+          <h1>
+            Hi, I AM <span class="highlight"> SHAZIN AHMED</span> THIS <br />IS
+            MY FAVORITE WORK
+          </h1>
+        </div>
+        <button>Hire me</button>
+      </div>
+    </section>
+
+    <!-- SECTION COUNTER -->
+    <div class="center-web mt-5">
+      <div class="container-fluid">
+        <div class="row row-sc">
+          <div class="column col-lg-3 col-md-6 col-sm-6 col-sc">
+            <div class="card card-sc">
+              <div class="icon-bg-sc">
+                <i class="fa-solid fa-list-check"></i>
+              </div>
+              <div class="card-body">
+                <h4>26</h4>
+                <p>PROJECTS COMPLETED</p>
+              </div>
+            </div>
+          </div>
+          <div class="column col-lg-3 col-md-6 col-sm-6 col-sc">
+            <div class="card card-sc">
+              <div class="icon-bg-sc">
+                <i class="fa-solid fa-face-smile"></i>
+              </div>
+              <div class="card-body">
+                <h4>22</h4>
+                <p>HAPPY CUSTOMERS</p>
+              </div>
+            </div>
+          </div>
+          <div class="column col-lg-3 col-md-6 col-sm-6 col-sc">
+            <div class="card card-sc">
+              <div class="icon-bg-sc">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="card-body">
+                <h4>80</h4>
+                <p>GOOD REVIEWS</p>
+              </div>
+            </div>
+          </div>
+          <div class="column col-lg-3 col-md-6 col-sm-6 col-sc">
+            <div class="card card-sc">
+              <div class="icon-bg-sc">
+                <i class="fa-solid fa-user-graduate"></i>
+              </div>
+              <div class="card-body">
+                <h4>1.5</h4>
+                <p>YEARS EXPEREINCED</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <div class="container-fluid mt-5 d" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-sm-12 reveal-l">
+            <div class="img-container"></div>
+          </div>
+
+          <div class="col-md-7 col-sm-12 mt-3 reveal-r">
+            <div class="heading" id="heading">
+              <h5>MY INTRO</h5>
+              <h1>ABOUT ME</h1>
+            </div>
+            <div class="about-me">
+              <p>
+                Shazin Ahmed is a UI/UX Designer &amp; Developer. He has a
+                passion for creating beautiful and functional websites and
+                applications. He has a strong background in design and
+                development, and is always looking for new challenges to push
+                his skills to the next level.
+              </p>
+
+              <table class="table-about mt-5">
+                <tr>
+                  <td>Name</td>
+                  <td>: Shazin Ahmed</td>
+                </tr>
+                <tr>
+                  <td>Date of Birth</td>
+                  <td>: December 22, 2002</td>
+                </tr>
+                <tr>
+                  <td>Address</td>
+                  <td>: 97, Mullegama, Ambatenna, Kandy, Sri Lanka</td>
+                </tr>
+                <tr>
+                  <td>Phone</td>
+                  <td>: +94-70-709-0051</td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td>: shazinahamed1222@gmail.com</td>
+                </tr>
+              </table>
+
+              <div class="row-about row mt-5">
+                <div class="column col-about col-lg-3">
+                  <div class="icon-bg">
+                    <i class="fa-solid fa-headset"></i>
+                  </div>
+                  <h5>MUSIC</h5>
+                </div>
+
+                <div class="column col-about col-lg-3">
+                  <div class="icon-bg">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                  <h5>CODE</h5>
+                </div>
+
+                <div class="column col-about col-lg-3">
+                  <div class="icon-bg">
+                    <i class="fa-solid fa-suitcase-rolling"></i>
+                  </div>
+                  <h5>TRAVEL</h5>
+                </div>
+
+                <div class="column col-about col-lg-3">
+                  <div class="icon-bg">
+                    <i class="fa-regular fa-futbol"></i>
+                  </div>
+                  <h5>SPORT</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MY SKILL -->
+    <div class="container-fluid con-progress" id="skills">
+      <div class="container center-web">
+        <div class="heading mt-5">
+          <h5>SKILL</h5>
+          <h1>MY SKILL</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptatem, quae, quia, quas, quibusdam quidem qu
+          </p>
+        </div>
+
+        <div class="row row-pro mt-5 reveal-u">
+          <div class="col-md-4 col-sm-6 col-skill">
+            <div class="card card-skill">
+              <h5 style="color: black"><strong>HTML</strong></h5>
+              <div class="progress-bar" data-progress="98%"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-skill">
+            <div class="card card-skill">
+              <h5 style="color: black"><strong>CSS</strong></h5>
+              <div class="progress-bar" data-progress="90%"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-skill">
+            <div class="card card-skill">
+              <h5 style="color: black"><strong>JAVASCRIPT</strong></h5>
+              <div class="progress-bar" data-progress="70%"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-skill">
+            <div class="card card-skill">
+              <h5 style="color: black"><strong>JAVA</strong></h5>
+              <div class="progress-bar" data-progress="80%"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-skill">
+            <div class="card card-skill">
+              <h5 style="color: black"><strong>PYTHON</strong></h5>
+              <div class="progress-bar" data-progress="75%"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-skill">
+            <div class="card card-skill">
+              <h5 style="color: black"><strong>C#</strong></h5>
+              <div class="progress-bar" data-progress="70%"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-skill">
+            <div class="card card-skill">
+              <h5 style="color: black"><strong>JQUERY</strong></h5>
+              <div class="progress-bar" data-progress="60%"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-skill">
+            <div class="card card-skill">
+              <h5 style="color: black"><strong>PHOTOSHOP</strong></h5>
+              <div class="progress-bar" data-progress="75%"></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-skill">
+            <div class="card card-skill">
+              <h5 style="color: black"><strong>FIGMA</strong></h5>
+              <div class="progress-bar" data-progress="80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OUR PROJECT -->
+    <div class="container-fluid con-pro mt-5" id="projects">
+      <div class="heading">
+        <h5>ACCOMPLISHED</h5>
+        <h1><strong>OUR PROJECTS</strong></h1>
+        <p>Behind every struggle there is a huge success</p>
+      </div>
+      <div class="row-pro">
+        <div class="column col-pro">
+          <div class="card card-pro">
+            <img
+              src="/img/w3images/lights.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="overlay-pro">
+              <button>WEB DEVELOPMENT</button>
+            </div>
+          </div>
+        </div>
+        <div class="column col-pro">
+          <div class="card card-pro">
+            <img
+              src="/img/w3images/lights.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="overlay-pro">
+              <button>WEB DEVELOPMENT</button>
+            </div>
+          </div>
+        </div>
+        <div class="column col-pro">
+          <div class="card card-pro">
+            <img
+              src="/img/w3images/lights.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="overlay-pro">
+              <button>WEB DEVELOPMENT</button>
+            </div>
+          </div>
+        </div>
+        <div class="column col-pro">
+          <div class="card card-pro">
+            <img
+              src="/img/w3images/lights.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="overlay-pro">
+              <button>WEB DEVELOPMENT</button>
+            </div>
+          </div>
+        </div>
+        <div class="column col-pro">
+          <div class="card card-pro">
+            <img
+              src="/img/w3images/lights.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="overlay-pro">
+              <button>WEB DEVELOPMENT</button>
+            </div>
+          </div>
+        </div>
+        <div class="column col-pro">
+          <div class="card card-pro">
+            <img
+              src="/img/w3images/lights.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="overlay-pro">
+              <button>WEB DEVELOPMENT</button>
+            </div>
+          </div>
+        </div>
+        <div class="column col-pro">
+          <div class="card card-pro">
+            <img
+              src="/img/w3images/lights.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="overlay-pro">
+              <button>WEB DEVELOPMENT</button>
+            </div>
+          </div>
+        </div>
+        <div class="column col-pro">
+          <div class="card card-pro">
+            <img
+              src="/img/w3images/lights.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="overlay-pro">
+              <button>WEB DEVELOPMENT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOGS -->
+    <div class="blog center-web mt-5">
+      <div class="heading">
+        <h5>UPDATES</h5>
+        <h1><strong>OUR BLOGS</strong></h1>
+        <p>Behind every struggle there is a huge success</p>
+      </div>
+
+      <div class="row-bl">
+        <div class="col-bl reveal-l">
+          <div class="content cont-bl">
+            <img src="img/w3images/mountains.jpg" style="width: 100%" />
+            <h3>My Work</h3>
+            <p>
+              Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
+              necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
+              sit amet, tempor prodesset eos no.
+            </p>
+          </div>
+        </div>
+        <div class="col-bl reveal-u">
+          <div class="content cont-bl">
+            <img
+              src="img/w3images/lights.jpg"
+              alt="Lights"
+              style="width: 100%"
+            />
+            <h3>My Work</h3>
+            <p>
+              Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
+              necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
+              sit amet, tempor prodesset eos no.
+            </p>
+          </div>
+        </div>
+        <div class="col-bl reveal-r">
+          <div class="content cont-bl">
+            <img
+              src="img/w3images/nature.jpg"
+              alt="Nature"
+              style="width: 100%"
+            />
+            <h3>My Work</h3>
+            <p>
+              Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
+              necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
+              sit amet, tempor prodesset eos no.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FEEDBACK -->
+    <section class="feedback mt-5">
+      <div class="carousel-f">
+        <div class="heading">
+          <h5 style="color: white">TESTIMONIALS</h5>
+          <h1><strong>What client says about?</strong></h1>
+          <p>Your valueable feebacks improves our quality</p>
+        </div>
+        <div class="cards-f">
+          <div class="card-f">
+            <h3 style="color: #69a195"><strong>Feedback 1</strong></h3>
+            <p>
+              &ldquo; It was an excellent looking website, where it actually met
+              all my requirements, and well designed &ldquor;
+            </p>
+            <div class="container-f">
+              <img src="img/pro.jpg" alt="Avatar" />
+              <span style="color: #69a195">Chris Fox. </span>
+              <p>John Doe saved us from a web disaster.</p>
+            </div>
+          </div>
+          <div class="card-f">
+            <h3 style="color: #69a195"><strong>Feedback 2</strong></h3>
+            <p>
+              &ldquo; It was an excellent looking website, where it actually met
+              all my requirements, and well designed &ldquor;
+            </p>
+            <div class="container-f">
+              <img src="img/pro.jpg" alt="Avatar" />
+              <span style="color: #69a195">Chris Fox.</span>
+              <p>John Doe saved us from a web disaster.</p>
+            </div>
+          </div>
+          <div class="card-f">
+            <h3 style="color: #69a195"><strong>Feedback 3</strong></h3>
+            <p>
+              &ldquo; It was an excellent looking website, where it actually met
+              all my requirements, and well designed &ldquor;
+            </p>
+            <div class="container-f">
+              <img src="img/pro.jpg" alt="Avatar" />
+              <span style="color: #69a195">Chris Fox. </span>
+              <p>John Doe saved us from a web disaster.</p>
+            </div>
+          </div>
+          <div class="card-f">
+            <h3 style="color: #69a195"><strong>Feedback 4</strong></h3>
+            <p>
+              &ldquo; It was an excellent looking website, where it actually met
+              all my requirements, and well designed &ldquor;
+            </p>
+            <div class="container-f">
+              <img src="img/pro.jpg" alt="Avatar" />
+              <span style="color: #69a195">Chris Fox. </span>
+              <p>John Doe saved us from a web disaster.</p>
+            </div>
+          </div>
+          <div class="card-f">
+            <h3 style="color: #69a195"><strong>Feedback 5</strong></h3>
+            <p>
+              &ldquo; It was an excellent looking website, where it actually met
+              all my requirements, and well designed &ldquor;
+            </p>
+            <div class="container-f">
+              <img src="img/pro.jpg" alt="Avatar" />
+              <span style="color: #69a195">Chris Fox. </span>
+              <p>John Doe saved us from a web disaster.</p>
+            </div>
+          </div>
+          <div class="card-f">
+            <h3 style="color: #69a195"><strong>Feedback 6</strong></h3>
+            <p>
+              &ldquo; It was an excellent looking website, where it actually met
+              all my requirements, and well designed &ldquor;
+            </p>
+            <div class="container-f">
+              <img src="img/pro.jpg" alt="Avatar" />
+              <span style="color: #69a195">Chris Fox. </span>
+              <p>John Doe saved us from a web disaster.</p>
+            </div>
+          </div>
+          <div class="card-f">
+            <h3 style="color: #69a195"><strong>Feedback 7</strong></h3>
+            <p>
+              &ldquo; It was an excellent looking website, where it actually met
+              all my requirements, and well designed &ldquor;
+            </p>
+            <div class="container-f">
+              <img src="img/pro.jpg" alt="Avatar" />
+              <span style="color: #69a195">Chris Fox. </span>
+              <p>John Doe saved us from a web disaster.</p>
+            </div>
+          </div>
+          <div class="card-f">
+            <h3 style="color: #69a195"><strong>Feedback 8</strong></h3>
+            <p>
+              &ldquo; It was an excellent looking website, where it actually met
+              all my requirements, and well designed &ldquor;
+            </p>
+            <div class="container-f">
+              <img src="img/pro.jpg" alt="Avatar" />
+              <span style="color: #69a195">Chris Fox. </span>
+              <p>John Doe saved us from a web disaster.</p>
+            </div>
+          </div>
+          <div class="card-f">
+            <h3 style="color: #69a195"><strong>Feedback 9</strong></h3>
+            <p>
+              &ldquo; It was an excellent looking website, where it actually met
+              all my requirements, and well designed &ldquor;
+            </p>
+            <div class="container-f">
+              <img src="img/pro.jpg" alt="Avatar" />
+              <span style="color: #69a195">Chris Fox. </span>
+              <p>John Doe saved us from a web disaster.</p>
+            </div>
+          </div>
+          <div class="card-f">
+            <h3 style="color: #69a195"><strong>Feedback 10</strong></h3>
+            <p>
+              &ldquo; It was an excellent looking website, where it actually met
+              all my requirements, and well designed &ldquor;
+            </p>
+            <div class="container-f">
+              <img src="img/pro.jpg" alt="Avatar" />
+              <span style="color: #69a195">Chris Fox. </span>
+              <p>John Doe saved us from a web disaster.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact mt-5" id="contact">
+      <div class="container con-contact">
+        <div class="heading">
+          <h5>CONTACT US</h5>
+          <h1><strong>Have a Project?</strong></h1>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row-contact">
+          <div class="column col-contact reveal-d">
+            <img src="img/con.jpg" style="width: 100%" />
+          </div>
+          <div class="column col-contact reveal-u">
+            <form action="/action_page.php">
+              <label class="label-con" for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+              <label class="label-con" for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+              <label class="label-con" for="country">Country</label>
+              <select id="country" name="country">
+                <option value="afghanistan">Afghanistan</option>
+                <option value="albania">Albania</option>
+                <option value="algeria">Algeria</option>
+                <option value="andorra">Andorra</option>
+                <option value="angola">Angola</option>
+                <option value="antigua_and_barbuda">Antigua and Barbuda</option>
+                <option value="argentina">Argentina</option>
+                <option value="armenia">Armenia</option>
+                <option value="australia">Australia</option>
+                <option value="austria">Austria</option>
+                <option value="azerbaijan">Azerbaijan</option>
+                <option value="bahamas">Bahamas</option>
+                <option value="bahrain">Bahrain</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="barbados">Barbados</option>
+                <option value="belarus">Belarus</option>
+                <option value="belgium">Belgium</option>
+                <option value="belize">Belize</option>
+                <option value="benin">Benin</option>
+                <option value="bhutan">Bhutan</option>
+                <option value="bolivia">Bolivia</option>
+                <option value="bosnia_and_herzegovina">
+                  Bosnia and Herzegovina
+                </option>
+                <option value="botswana">Botswana</option>
+                <option value="brazil">Brazil</option>
+                <option value="brunei">Brunei</option>
+                <option value="bulgaria">Bulgaria</option>
+                <option value="burkina_faso">Burkina Faso</option>
+                <option value="burundi">Burundi</option>
+                <option value="cabo_verde">Cabo Verde</option>
+                <option value="cambodia">Cambodia</option>
+                <option value="cameroon">Cameroon</option>
+                <option value="canada">Canada</option>
+                <option value="central_african_republic">
+                  Central African Republic
+                </option>
+                <option value="chad">Chad</option>
+                <option value="chile">Chile</option>
+                <option value="china">China</option>
+                <option value="colombia">Colombia</option>
+                <option value="comoros">Comoros</option>
+                <option value="congo_democratic_republic">
+                  Congo (Democratic Republic)
+                </option>
+                <option value="congo_republic">Congo (Republic)</option>
+                <option value="costa_rica">Costa Rica</option>
+                <option value="croatia">Croatia</option>
+                <option value="cuba">Cuba</option>
+                <option value="cyprus">Cyprus</option>
+                <option value="czech_republic">Czech Republic</option>
+                <option value="denmark">Denmark</option>
+                <option value="djibouti">Djibouti</option>
+                <option value="dominica">Dominica</option>
+                <option value="dominican_republic">Dominican Republic</option>
+                <option value="east_timor">East Timor</option>
+                <option value="ecuador">Ecuador</option>
+                <option value="egypt">Egypt</option>
+                <option value="el_salvador">El Salvador</option>
+                <option value="equatorial_guinea">Equatorial Guinea</option>
+                <option value="eritrea">Eritrea</option>
+                <option value="estonia">Estonia</option>
+                <option value="eswatini">Eswatini</option>
+                <option value="ethiopia">Ethiopia</option>
+                <option value="fiji">Fiji</option>
+                <option value="finland">Finland</option>
+                <option value="france">France</option>
+                <option value="gabon">Gabon</option>
+                <option value="gambia">Gambia</option>
+                <option value="georgia">Georgia</option>
+                <option value="germany">Germany</option>
+                <option value="ghana">Ghana</option>
+                <option value="greece">Greece</option>
+                <option value="grenada">Grenada</option>
+                <option value="guatemala">Guatemala</option>
+                <option value="guinea">Guinea</option>
+                <option value="guinea_bissau">Guinea-Bissau</option>
+                <option value="guyana">Guyana</option>
+                <option value="haiti">Haiti</option>
+                <option value="honduras">Honduras</option>
+                <option value="hungary">Hungary</option>
+                <option value="iceland">Iceland</option>
+                <option value="india">India</option>
+                <option value="indonesia">Indonesia</option>
+                <option value="iran">Iran</option>
+                <option value="iraq">Iraq</option>
+                <option value="ireland">Ireland</option>
+                <option value="israel">Israel</option>
+                <option value="italy">Italy</option>
+                <option value="jamaica">Jamaica</option>
+                <option value="japan">Japan</option>
+                <option value="jordan">Jordan</option>
+                <option value="kazakhstan">Kazakhstan</option>
+                <option value="kenya">Kenya</option>
+                <option value="kiribati">Kiribati</option>
+                <option value="korea_north">Korea (North)</option>
+                <option value="korea_south">Korea (South)</option>
+                <option value="kosovo">Kosovo</option>
+                <option value="kuwait">Kuwait</option>
+                <option value="kyrgyzstan">Kyrgyzstan</option>
+                <option value="laos">Laos</option>
+                <option value="latvia">Latvia</option>
+                <option value="lebanon">Lebanon</option>
+                <option value="lesotho">Lesotho</option>
+                <option value="liberia">Liberia</option>
+                <option value="libya">Libya</option>
+                <option value="liechtenstein">Liechtenstein</option>
+                <option value="lithuania">Lithuania</option>
+                <option value="luxembourg">Luxembourg</option>
+                <option value="madagascar">Madagascar</option>
+                <option value="malawi">Malawi</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="maldives">Maldives</option>
+                <option value="mali">Mali</option>
+                <option value="malta">Malta</option>
+                <option value="marshall_islands">Marshall Islands</option>
+                <option value="mauritania">Mauritania</option>
+                <option value="mauritius">Mauritius</option>
+                <option value="mexico">Mexico</option>
+                <option value="micronesia">Micronesia</option>
+                <option value="moldova">Moldova</option>
+                <option value="monaco">Monaco</option>
+                <option value="mongolia">Mongolia</option>
+                <option value="montenegro">Montenegro</option>
+                <option value="morocco">Morocco</option>
+                <option value="mozambique">Mozambique</option>
+                <option value="myanmar">Myanmar</option>
+                <option value="namibia">Namibia</option>
+                <option value="nauru">Nauru</option>
+                <option value="nepal">Nepal</option>
+                <option value="netherlands">Netherlands</option>
+                <option value="new_zealand">New Zealand</option>
+                <option value="nicaragua">Nicaragua</option>
+                <option value="niger">Niger</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="north_macedonia">North Macedonia</option>
+                <option value="norway">Norway</option>
+                <option value="oman">Oman</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="palau">Palau</option>
+                <option value="panama">Panama</option>
+                <option value="papua_new_guinea">Papua New Guinea</option>
+                <option value="paraguay">Paraguay</option>
+                <option value="peru">Peru</option>
+                <option value="philippines">Philippines</option>
+                <option value="poland">Poland</option>
+                <option value="portugal">Portugal</option>
+                <option value="qatar">Qatar</option>
+                <option value="romania">Romania</option>
+                <option value="russia">Russia</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="saint_kitts_and_nevis">
+                  Saint Kitts and Nevis
+                </option>
+                <option value="saint_lucia">Saint Lucia</option>
+                <option value="saint_vincent_and_the_grenadines">
+                  Saint Vincent and the Grenadines
+                </option>
+                <option value="samoa">Samoa</option>
+                <option value="san_marino">San Marino</option>
+                <option value="sao_tome_and_principe">
+                  Sao Tome and Principe
+                </option>
+                <option value="saudi_arabia">Saudi Arabia</option>
+                <option value="senegal">Senegal</option>
+                <option value="serbia">Serbia</option>
+                <option value="seychelles">Seychelles</option>
+                <option value="sierra_leone">Sierra Leone</option>
+                <option value="singapore">Singapore</option>
+                <option value="slovakia">Slovakia</option>
+                <option value="slovenia">Slovenia</option>
+                <option value="solomon_islands">Solomon Islands</option>
+                <option value="somalia">Somalia</option>
+                <option value="south_africa">South Africa</option>
+                <option value="south_sudan">South Sudan</option>
+                <option value="spain">Spain</option>
+                <option value="sri_lanka">Sri Lanka</option>
+                <option value="sudan">Sudan</option>
+                <option value="suriname">Suriname</option>
+                <option value="sweden">Sweden</option>
+                <option value="switzerland">Switzerland</option>
+                <option value="syria">Syria</option>
+                <option value="taiwan">Taiwan</option>
+                <option value="tajikistan">Tajikistan</option>
+                <option value="tanzania">Tanzania</option>
+                <option value="thailand">Thailand</option>
+                <option value="togo">Togo</option>
+                <option value="tonga">Tonga</option>
+                <option value="trinidad_and_tobago">Trinidad and Tobago</option>
+                <option value="tunisia">Tunisia</option>
+                <option value="turkey">Turkey</option>
+                <option value="turkmenistan">Turkmenistan</option>
+                <option value="tuvalu">Tuvalu</option>
+                <option value="uganda">Uganda</option>
+                <option value="ukraine">Ukraine</option>
+                <option value="united_arab_emirates">
+                  United Arab Emirates
+                </option>
+                <option value="united_kingdom">United Kingdom</option>
+                <option value="united_states">United States</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="uzbekistan">Uzbekistan</option>
+                <option value="vanuatu">Vanuatu</option>
+                <option value="vatican_city">Vatican City</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="vietnam">Vietnam</option>
+                <option value="yemen">Yemen</option>
+                <option value="zambia">Zambia</option>
+                <option value="zimbabwe">Zimbabwe</option>
+              </select>
+              <label class="label-con" for="e-mail">E-mail</label>
+              <input
+                type="text"
+                id="e-mail"
+                name="email"
+                placeholder="Enter Your E-mail"
+              />
+              <label class="label-con" for="sub">Subject</label>
+              <input
+                type="text"
+                id="sub"
+                name="subject"
+                placeholder="Subject Here"
+              />
+
+              <label class="label-con" for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write something.."
+                style="height: 170px"
+              ></textarea>
+              <input type="submit" id="button" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-5">
+      <div class="container footer-con">
+        <div class="row footer-row reveal-u">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <h2><strong>SHAZ</strong></h2>
+            <hr />
+            <p>
+              Nz Fashion is a retail chain that offers a world-class retail
+              experience. We take pride in our Sri Lankan roots while setting
+              new benchmarks in customer-centricity.
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <h2>Get to</h2>
+            <hr />
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">SKILLS</a></li>
+              <li><a href="#">PROJECTS</a></li>
+              <li><a href="#">CONATCT</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <h2>Services</h2>
+            <hr />
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Software Development</a></li>
+              <li><a href="#">App Development</a></li>
+              <li><a href="#">Software Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <h2>Question ?</h2>
+            <hr />
+            <table class="table-footer" style="width: 100%">
+              <tr>
+                <td><i class="fa-solid fa-location-dot"></i></td>
+                <td>97 Mullegama Ambatenne Kandy, Sri Lanka</td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-phone"></i></td>
+                <td>077 123 4567</td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-envelope"></i></td>
+                <td>shazinahamed1222@gmail.com</td>
+              </tr>
+            </table>
+
+            <div class="icon-container">
+              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href=""><i class="fab fa-github"></i></a>
+              <a href=""><i class="fas fa-globe"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-fluid footer-below">
+        <p>
+          &copy;2024 All rights reserved, Powered by
+          <strong style="color: white">SHAZ</strong>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
