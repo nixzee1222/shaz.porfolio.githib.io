@@ -220,7 +220,7 @@ h1 {
 }
 .hero-image {
   top: 25%;
-  background-image: url(../img/shaz.png);
+  background-image: url(../shaz.png);
   height: 60vh;
   background-position: right;
   background-repeat: no-repeat;
@@ -333,7 +333,7 @@ h1 {
   display: flex;
   height: 60vh;
   background-color: #69a195;
-  background-image: url("../img/pro.jpg");
+  background-image: url("../pro.jpg");
   background-size: cover;
   background-position: center;
 }
